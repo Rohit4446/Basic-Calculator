@@ -1,0 +1,46 @@
+<!--
+== vs ===
+==  check the value
+=== ckeck value and type both
+
+NaN is not equal to NaN
+NaN != NanN -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcu.css">
+</head>
+<body>
+    <div id="main" >
+
+
+        <div><input type="text" placeholder="" id="input"  value="" onload="val1()"></div>
+        <div id="number">
+           <button id="block1" onclick="type_1()">1</button>
+           <button id="block2" onclick="type_2()">2</button>
+           <button id="block3" onclick="type_3()">3</button>
+           <button id="divide" onclick="type_divide()">/</button><br>
+           <button id="block4" onclick="type_4()">4</button>
+           <button id="block5" onclick="type_5()">5</button>
+           <button id="block6" onclick="type_6()">6</button>
+           <button id="multiply" onclick="type_multiply()">*</button><br>
+           <button id="block7" onclick="type_7()">7</button>
+           <button id="block8" onclick="type_8()">8</button>
+           <button id="block9" onclick="type_9()">9</button>
+           <button id="minus" onclick="type_minus()">-</button><br>
+           <button id="ans" onclick="type_ans()">=</button>
+           <button id="block0" onclick="type_0()">0</button>
+           <button id="dot" onclick="type_dot()">.</button>
+           <button id="plus" onclick="type_plus()">+</button><br>
+           <button id="clr"onclick="type_clr()">C</button>
+           
+        </div>
+    </div>
+    <script src="calcu.js"></script>
+</body>
+</html>
